@@ -1,4 +1,5 @@
-import item from './item.js';
+import item from './item';
+import '../styles/index.css';
 
 const items = [];
 let hideCheckeditems = false;

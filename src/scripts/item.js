@@ -1,3 +1,6 @@
+import cuid from 'cuid';
+import '../styles/index.css';
+
 const validateName = function(name) {
   if (!name) throw new TypeError('Name must not be blank');
 };
